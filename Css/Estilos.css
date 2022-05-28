@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@100 & display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    overflow-x: hidden;
+   
+}
+
+.wrapper{
+    width:100vww;
+    height:100vh;
+    background-color: rgb(3, 3, 49);
+    color: aliceblue;
+   
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand{
+    margin-top: -7px;
+    
+}
+
+.brand span{
+    color:aqua;
+}
+
+
+
+.navbar-nav a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar-nav .active{
+    color: aqua;
+    
+}
+
+.navbar-nav a:hover{
+    background-color: aqua;
+    color: negro;
+    transition: ease-in .4s;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 3em;
+}
+
+span{
+    color:aqua;
+}
+
+.download-cv{
+    padding: 10px 20px;
+    background-color:aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200,.69);
+}
+
+.download-cv:hover{
+    background-color:beige;
+    box-shadow:none;
+}
+
+.main img {
+    width:350px;
+    border: 7px solid aqua;
+    height: 520px;
+    
+}
+
+.proyectos-headings {
+    width: 100vm;
+    padding: 5em;
+}
+
+.proyectos-headings h2 {
+font-size: 2.5em;
+}
+.proyectos .container{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.card{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 350px;
+   background-color: rgb(25, 131, 134);
+    margin: 1em;
+   
+}
+
+.card_img{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/abarrrotes.jpg) ;
+    background-size:cover;
+   
+
+}
+
+.card__title{
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(25, 131, 134);
+    color: #fff;
+
+}
+
+/*empieza herramientas*/
+
+#contenedor{
+    text-align: center;
+  }
+  
+  .imga1 {
+    background-image: url(../img/html.png);
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+    display:inline-block;
+    width: 200px;
+    text-align: center;
+  }
+
+  .imga2 {
+    background-image: url(../img/java.jpg);
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+    display:inline-block;
+    width: 200px;
+    text-align: center;
+  }
+
+
+/*termina herramientas*/
+
+
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+    background-color: rgb(3, 3, 49);
+    color: #fff;
+   
+
+    }
+    .container-contact img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    }
+    .form input{
+    padding:10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid
+    solid X#fff;
+    color: #fff;
+    }
+    
+    .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba( 102,231,200,0.69);
+    }
+
+    .btn-submit:hover {
+    background-color: #fff;
+    box-shadow: none;
+    }
+
+ @media screen and (max-width: 1200px) {
+
+    .wrapper{
+        width:80vww;
+        height:80vh;
+        background-color: rgb(3, 3, 49);
+        color: aliceblue;
+       
+    }
+
+     .main{
+        margin: 0 auto;
+        width: 70vw;
+        height: 70vh;
+       
+     }
+
+     .main img {
+        width:300px;
+        border: 7px solid aqua;
+        height: 350px;
+        margin-top: -1px;
+        
+    }
+     
+     .proyectos-headings {
+        width: 90vm;
+        padding: 4em;
+    }
+
+    .proyectos .container{
+        width: 80vw;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      
+        
+    }
+ }
+ @media screen and (max-width: 720px){
+
+    .navbar{
+        background-color: rgb(26, 141, 170);
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        margin-top: auto;
+    }
+    
+   
+    
+
+    .wrapper{
+        width:100vww;
+        height:100vh;
+        background-color: rgb(3, 3, 49);
+        color: aliceblue;
+       
+    }
+
+    .main{
+        margin: 0 auto;
+        width: 50vw;
+        height: 40vh;
+       
+     }
+
+     .main img {
+        width:290px;
+        border: 7px solid aqua;
+        height: 400px;
+        margin-top: -1px;
+        
+    }
+     
+     .proyectos-headings {
+        width: 70vm;
+        padding: 3em;
+    }
+
+   
+    
+
+    
+ }
+
+ @media screen and (max-width: 420px){
+    .navbar{
+        background-color: rgb(26, 141, 170);
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+        
+    }
+    
+    .card{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: -300px;
+        height: -300px;
+       background-color: rgb(25, 131, 134);
+        margin: 1em;
+        font-size: xx-small;
+       
+    }
+
+
+    .wrapper{
+        width:116vw;
+        height:107vh;
+        background-color: rgb(3, 3, 49);
+        color: aliceblue;
+       
+    }
+
+    .main{
+        margin: 0 auto;
+        width: 80vw;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        align-items: center;
+     }
+
+     .main img {
+        width:290px;
+        border: 7px solid aqua;
+        height: 400px;
+        margin-top: -1px;
+        
+    }
+     
+     .proyectos-headings {
+        width: 70vm;
+        padding: 3em;
+    }
+
+    .proyectos .container{
+        width: 123vw;
+        height: 61vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      
+        
+    }
+    .card_img{
+        width: 200px;
+        height: 30px;
+        background-image: url(../img/abarrrotes.jpg) ;
+        background-size:cover;
+       
+    
+    }
+    .p{
+        margin-top: -11px;
+        margin-bottom: 1res;
+    }
+
+ }
+
+
